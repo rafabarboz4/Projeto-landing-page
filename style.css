@@ -14,11 +14,11 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-around;
 }
 
-.cabecalho-menu-botao{
+.cabecalho-menu-login{
     /*Estilo do botao*/
     border: 4px solid #407BFF;
     Width: 151px;
@@ -29,7 +29,19 @@ body{
     font-weight: 700;
     font-size: 24px;
     color: #407BFF;
+}
 
+.cabecalho-menu-signup{
+    /*Estilo do botao*/
+    border: 4px solid #407BFF;
+    Width: 151px;
+    Height: 53px;
+    border-radius: 30px;
+    /*Estilo da fonte*/
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    color: #407BFF;
 }
 
 .cabecalho-nome{
